@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65F6AC855F837C4B6C100A09 /* Pods_qrstore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B6D1AF342D4ABF831F33ED /* Pods_qrstore.framework */; };
+		84B4EDB022B93723007E929A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4EDAF22B93723007E929A /* AppDelegate.swift */; };
+		84B4EDB222B93723007E929A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4EDB122B93723007E929A /* ViewController.swift */; };
+		84B4EDB522B93723007E929A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B4EDB322B93723007E929A /* Main.storyboard */; };
+		84B4EDB722B9372C007E929A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B4EDB622B9372C007E929A /* Assets.xcassets */; };
+		84B4EDBA22B9372C007E929A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B4EDB822B9372C007E929A /* LaunchScreen.storyboard */; };
+		84B4EDC522B9372D007E929A /* qrstoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4EDC422B9372D007E929A /* qrstoreTests.swift */; };
+		84B4EDD022B9372D007E929A /* qrstoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B4EDCF22B9372D007E929A /* qrstoreUITests.swift */; };
+		84FCFEB62328555900D83537 /* try.html in Resources */ = {isa = PBXBuildFile; fileRef = 84FCFEB52328555800D83537 /* try.html */; };
+		84FCFEB92329459700D83537 /* EjemploViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFEB82329459700D83537 /* EjemploViewController.swift */; };
+		84FCFEBB232945AE00D83537 /* Ejemplo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FCFEBA232945AE00D83537 /* Ejemplo.storyboard */; };
+		84FCFEBD2329634600D83537 /* QrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FCFEBC2329634600D83537 /* QrViewController.swift */; };
+		84FCFEBF2329635900D83537 /* Qr.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FCFEBE2329635900D83537 /* Qr.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B4EDC122B9372D007E929A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B4EDA422B93723007E929A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B4EDAB22B93723007E929A;
+			remoteInfo = qrstore;
+		};
+		84B4EDCC22B9372D007E929A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B4EDA422B93723007E929A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B4EDAB22B93723007E929A;
+			remoteInfo = qrstore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F868B5A88A2BA0F064916C8 /* Pods-qrstore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrstore.debug.xcconfig"; path = "Target Support Files/Pods-qrstore/Pods-qrstore.debug.xcconfig"; sourceTree = "<group>"; };
+		70C332A088C27F471A5F5440 /* Pods-qrstore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qrstore.release.xcconfig"; path = "Target Support Files/Pods-qrstore/Pods-qrstore.release.xcconfig"; sourceTree = "<group>"; };
+		84B4EDAC22B93723007E929A /* qrstore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qrstore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B4EDAF22B93723007E929A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84B4EDB122B93723007E929A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84B4EDB422B93723007E929A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B4EDB622B9372C007E929A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B4EDB922B9372C007E929A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84B4EDBB22B9372C007E929A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B4EDC022B9372D007E929A /* qrstoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qrstoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B4EDC422B9372D007E929A /* qrstoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrstoreTests.swift; sourceTree = "<group>"; };
+		84B4EDC622B9372D007E929A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B4EDCB22B9372D007E929A /* qrstoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qrstoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B4EDCF22B9372D007E929A /* qrstoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qrstoreUITests.swift; sourceTree = "<group>"; };
+		84B4EDD122B9372D007E929A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FCFEB52328555800D83537 /* try.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = try.html; sourceTree = "<group>"; };
+		84FCFEB82329459700D83537 /* EjemploViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemploViewController.swift; sourceTree = "<group>"; };
+		84FCFEBA232945AE00D83537 /* Ejemplo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ejemplo.storyboard; sourceTree = "<group>"; };
+		84FCFEBC2329634600D83537 /* QrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrViewController.swift; sourceTree = "<group>"; };
+		84FCFEBE2329635900D83537 /* Qr.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Qr.storyboard; sourceTree = "<group>"; };
+		90B6D1AF342D4ABF831F33ED /* Pods_qrstore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_qrstore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B4EDA922B93723007E929A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F6AC855F837C4B6C100A09 /* Pods_qrstore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B4EDBD22B9372D007E929A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B4EDC822B9372D007E929A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B4975C344114E877773E9C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90B6D1AF342D4ABF831F33ED /* Pods_qrstore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48AA87595F86ADED16D3BD4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F868B5A88A2BA0F064916C8 /* Pods-qrstore.debug.xcconfig */,
+				70C332A088C27F471A5F5440 /* Pods-qrstore.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84B4EDA322B93723007E929A = {
+			isa = PBXGroup;
+			children = (
+				84B4EDAE22B93723007E929A /* qrstore */,
+				84B4EDC322B9372D007E929A /* qrstoreTests */,
+				84B4EDCE22B9372D007E929A /* qrstoreUITests */,
+				84B4EDAD22B93723007E929A /* Products */,
+				48AA87595F86ADED16D3BD4E /* Pods */,
+				3B4975C344114E877773E9C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84B4EDAD22B93723007E929A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B4EDAC22B93723007E929A /* qrstore.app */,
+				84B4EDC022B9372D007E929A /* qrstoreTests.xctest */,
+				84B4EDCB22B9372D007E929A /* qrstoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B4EDAE22B93723007E929A /* qrstore */ = {
+			isa = PBXGroup;
+			children = (
+				84FCFEB72329455900D83537 /* Ejemplo */,
+				84B4EDAF22B93723007E929A /* AppDelegate.swift */,
+				84B4EDB122B93723007E929A /* ViewController.swift */,
+				84B4EDB322B93723007E929A /* Main.storyboard */,
+				84B4EDB622B9372C007E929A /* Assets.xcassets */,
+				84B4EDB822B9372C007E929A /* LaunchScreen.storyboard */,
+				84B4EDBB22B9372C007E929A /* Info.plist */,
+			);
+			path = qrstore;
+			sourceTree = "<group>";
+		};
+		84B4EDC322B9372D007E929A /* qrstoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B4EDC422B9372D007E929A /* qrstoreTests.swift */,
+				84B4EDC622B9372D007E929A /* Info.plist */,
+			);
+			path = qrstoreTests;
+			sourceTree = "<group>";
+		};
+		84B4EDCE22B9372D007E929A /* qrstoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84B4EDCF22B9372D007E929A /* qrstoreUITests.swift */,
+				84B4EDD122B9372D007E929A /* Info.plist */,
+			);
+			path = qrstoreUITests;
+			sourceTree = "<group>";
+		};
+		84FCFEB72329455900D83537 /* Ejemplo */ = {
+			isa = PBXGroup;
+			children = (
+				84FCFEB52328555800D83537 /* try.html */,
+				84FCFEB82329459700D83537 /* EjemploViewController.swift */,
+				84FCFEBA232945AE00D83537 /* Ejemplo.storyboard */,
+				84FCFEBC2329634600D83537 /* QrViewController.swift */,
+				84FCFEBE2329635900D83537 /* Qr.storyboard */,
+			);
+			path = Ejemplo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B4EDAB22B93723007E929A /* qrstore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B4EDD422B9372D007E929A /* Build configuration list for PBXNativeTarget "qrstore" */;
+			buildPhases = (
+				B55C06ECE73540A340408250 /* [CP] Check Pods Manifest.lock */,
+				84B4EDA822B93723007E929A /* Sources */,
+				84B4EDA922B93723007E929A /* Frameworks */,
+				84B4EDAA22B93723007E929A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qrstore;
+			productName = qrstore;
+			productReference = 84B4EDAC22B93723007E929A /* qrstore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B4EDBF22B9372D007E929A /* qrstoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B4EDD722B9372D007E929A /* Build configuration list for PBXNativeTarget "qrstoreTests" */;
+			buildPhases = (
+				84B4EDBC22B9372D007E929A /* Sources */,
+				84B4EDBD22B9372D007E929A /* Frameworks */,
+				84B4EDBE22B9372D007E929A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B4EDC222B9372D007E929A /* PBXTargetDependency */,
+			);
+			name = qrstoreTests;
+			productName = qrstoreTests;
+			productReference = 84B4EDC022B9372D007E929A /* qrstoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84B4EDCA22B9372D007E929A /* qrstoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B4EDDA22B9372D007E929A /* Build configuration list for PBXNativeTarget "qrstoreUITests" */;
+			buildPhases = (
+				84B4EDC722B9372D007E929A /* Sources */,
+				84B4EDC822B9372D007E929A /* Frameworks */,
+				84B4EDC922B9372D007E929A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B4EDCD22B9372D007E929A /* PBXTargetDependency */,
+			);
+			name = qrstoreUITests;
+			productName = qrstoreUITests;
+			productReference = 84B4EDCB22B9372D007E929A /* qrstoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B4EDA422B93723007E929A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = singleclick;
+				TargetAttributes = {
+					84B4EDAB22B93723007E929A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					84B4EDBF22B9372D007E929A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 84B4EDAB22B93723007E929A;
+					};
+					84B4EDCA22B9372D007E929A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 84B4EDAB22B93723007E929A;
+					};
+				};
+			};
+			buildConfigurationList = 84B4EDA722B93723007E929A /* Build configuration list for PBXProject "qrstore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B4EDA322B93723007E929A;
+			productRefGroup = 84B4EDAD22B93723007E929A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B4EDAB22B93723007E929A /* qrstore */,
+				84B4EDBF22B9372D007E929A /* qrstoreTests */,
+				84B4EDCA22B9372D007E929A /* qrstoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B4EDAA22B93723007E929A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B4EDBA22B9372C007E929A /* LaunchScreen.storyboard in Resources */,
+				84B4EDB722B9372C007E929A /* Assets.xcassets in Resources */,
+				84FCFEB62328555900D83537 /* try.html in Resources */,
+				84FCFEBB232945AE00D83537 /* Ejemplo.storyboard in Resources */,
+				84B4EDB522B93723007E929A /* Main.storyboard in Resources */,
+				84FCFEBF2329635900D83537 /* Qr.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B4EDBE22B9372D007E929A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B4EDC922B9372D007E929A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B55C06ECE73540A340408250 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qrstore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B4EDA822B93723007E929A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FCFEB92329459700D83537 /* EjemploViewController.swift in Sources */,
+				84B4EDB222B93723007E929A /* ViewController.swift in Sources */,
+				84B4EDB022B93723007E929A /* AppDelegate.swift in Sources */,
+				84FCFEBD2329634600D83537 /* QrViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B4EDBC22B9372D007E929A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B4EDC522B9372D007E929A /* qrstoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B4EDC722B9372D007E929A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B4EDD022B9372D007E929A /* qrstoreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B4EDC222B9372D007E929A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B4EDAB22B93723007E929A /* qrstore */;
+			targetProxy = 84B4EDC122B9372D007E929A /* PBXContainerItemProxy */;
+		};
+		84B4EDCD22B9372D007E929A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B4EDAB22B93723007E929A /* qrstore */;
+			targetProxy = 84B4EDCC22B9372D007E929A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84B4EDB322B93723007E929A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B4EDB422B93723007E929A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84B4EDB822B9372C007E929A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B4EDB922B9372C007E929A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B4EDD222B9372D007E929A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84B4EDD322B9372D007E929A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B4EDD522B9372D007E929A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F868B5A88A2BA0F064916C8 /* Pods-qrstore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 686CA3Z9UA;
+				INFOPLIST_FILE = qrstore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.singleclick.qrstore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84B4EDD622B9372D007E929A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70C332A088C27F471A5F5440 /* Pods-qrstore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 686CA3Z9UA;
+				INFOPLIST_FILE = qrstore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.singleclick.qrstore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84B4EDD822B9372D007E929A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 686CA3Z9UA;
+				INFOPLIST_FILE = qrstoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.singleclick.qrstoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qrstore.app/qrstore";
+			};
+			name = Debug;
+		};
+		84B4EDD922B9372D007E929A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 686CA3Z9UA;
+				INFOPLIST_FILE = qrstoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.singleclick.qrstoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qrstore.app/qrstore";
+			};
+			name = Release;
+		};
+		84B4EDDB22B9372D007E929A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 686CA3Z9UA;
+				INFOPLIST_FILE = qrstoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.singleclick.qrstoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = qrstore;
+			};
+			name = Debug;
+		};
+		84B4EDDC22B9372D007E929A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 686CA3Z9UA;
+				INFOPLIST_FILE = qrstoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.singleclick.qrstoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = qrstore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B4EDA722B93723007E929A /* Build configuration list for PBXProject "qrstore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B4EDD222B9372D007E929A /* Debug */,
+				84B4EDD322B9372D007E929A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B4EDD422B9372D007E929A /* Build configuration list for PBXNativeTarget "qrstore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B4EDD522B9372D007E929A /* Debug */,
+				84B4EDD622B9372D007E929A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B4EDD722B9372D007E929A /* Build configuration list for PBXNativeTarget "qrstoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B4EDD822B9372D007E929A /* Debug */,
+				84B4EDD922B9372D007E929A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B4EDDA22B9372D007E929A /* Build configuration list for PBXNativeTarget "qrstoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B4EDDB22B9372D007E929A /* Debug */,
+				84B4EDDC22B9372D007E929A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B4EDA422B93723007E929A /* Project object */;
+}
